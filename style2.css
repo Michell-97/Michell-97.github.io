@@ -1,0 +1,68 @@
+body{
+    /* background-color: darksalmon; */
+}
+
+.hero{
+    /* ayudo a visulizar la seccion espacio lugar */
+    /* height: 100vh; */
+}
+
+/* !important prioridad */
+
+.text-principal{
+    color: goldenrod !important;
+}
+
+hr{
+    background-color: goldenrod;
+}
+
+.gold{
+    border: 2px solid goldenrod;
+}
+
+.gold:hover{
+    border: 4px solid goldenrod;
+}
+
+.subir{
+    /* son validos los valores negativos  */
+    margin-top: -20vh;
+}
+.alto{
+    height: 50vh;
+}
+
+.alert-gold{
+    background-color: goldenrod;
+    color: black;
+}
+
+.text-gold{
+    color: goldenrod;
+}
+
+/* imágenes de catálogo */
+.img-pan{
+    width: 180px;
+    height: 180px;
+    /* cambia de cursor flecha a manita */
+    cursor: pointer;
+    opacity: .7;
+    /* 1= segundo/ .3,.4, .etc milisegundos */
+    transition: all .6s;
+}
+
+.img-pan:hover{
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    transition: all .6s;
+}
+
+/* .rol{
+    transform: rotate(90deg);
+    margin-left: 112px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+} */
