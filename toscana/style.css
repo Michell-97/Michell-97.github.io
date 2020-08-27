@@ -1,0 +1,50 @@
+.background-1 { background: #26070C; }
+.background-2 { background: #D9AB82; }
+.background-3 { background: #F2D5BB; }
+.background-4 { background: #BF7154; }
+.background-5 { background: #733E32; }
+
+/* Color Theme Swatches in Hex */
+.color-1 { color: #F29F05; }
+.color-2 { color: #F28705; }
+.color-3 { color: #BF702A; }
+.color-4 { color: #592A19; }
+.color-5 { color: #F2E4DF; }
+.color-6 { color: #F2D5BB; }
+
+/* body{
+    background-color: #F2D5BB;
+} */
+
+.letra{
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+
+.letra1{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+footer{
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/13/04/01/breakfast-on-board-of-the-iron-4926867_960_720.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.card{
+    transition: 0.8s transform cubic-bezier(.17,.67,.83,.67);
+    cursor: pointer;
+    opacity: .6;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, .6);
+    opacity: 1;
+}
+
+
+
+
+
