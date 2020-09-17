@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- LINK EXTERNO CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>GASTOS</title>
+</head>
+
+<body>
+
+    <div class="container bg-primary mt-5 text-light p-5">
+        <h1 class="display-4 text-center">Calculadora De Gastos Mensuales</h1>
+        <hr class="linea">
+        <!-- ayuda para visualizar el funcionamiento del show -->
+        <!-- <button class="btn btn-block btn-secondary mt-3" onclick="mostrar()">Mostrar</button> -->
+
+        <div class="container mt-5 py-5" id="ingreso">
+            <!-- input= entrada de datos -->
+            <input type="number" class="form-control col-6 mx-auto" placeholder="Ingresa tu sueldo mensual total"
+                id="dinero">
+            <button class="btn btn-block btn-success mt-3" onclick="mostrar()">Enviar</button>
+        </div>
+
+
+        <div class="card" id="calc">
+            <div class="card-header bg-success">
+                <!-- datos moc= datos prueba -->
+                <!-- <h2 id="cantidad">$ 3000</h2> -->
+
+                <!-- datos dinámicos -->
+                <h2 id="cantidad"></h2>
+
+            </div>
+
+            <div class="card-body">
+                <p id="total" class="text-dark bg-warning p-2"></p>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Renta" id="renta">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Servicios [Agua, Luz, Teléfono]" id="servicios">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-danger mt-3" onclick="mostrar()">Regresar</button>
+                    <button type="button" class="btn btn-success mt-3" onclick="calcula()">Calcula si me puedo comer
+                        unos tacos</button>
+                </form>
+            </div>
+
+            <div class="card-footer py-5">
+                <p class="text-muted float-right">Desarrollado por: González González Michelle</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+<!-- sweetalert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- JS -->
+<script src="app.js"></script>
+
+</html>
