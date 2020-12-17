@@ -1,0 +1,117 @@
+.bg-1 { background: #FC427B; }
+.bg-2 { background: #FDA7DF; }
+.bg-3 { background: #25CCF7; }
+.bg-4 { background: #fcf77a; }
+.bg-5 { background: #32ff7e; }
+.bg-6 { background: #be2edd; }
+
+
+.color-1 { color: #70a1ff; }
+.color-2 { color: #ff7f50; }
+.color-3 { color: #B33771; }
+.color-4 { color: #FFC312; }
+.color-5 { color: #9cf8b9; }
+.color-6 { color: #be2edd; }
+.color-7 { color: #32ff7e; }
+.color-8 { color: #FC427B; }
+.color-9 { color: #FDA7DF; }
+
+/* FUENTES */
+/* font-family: 'Lobster', cursive; */
+/* */
+
+
+body{
+    font-family: 'Kotta One', serif;
+}
+
+/* HERENCIA SINTÁXICA */
+/* .container .hero{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://amandin.com/wp-content/uploads/2016/07/Amandin_bueno_malo_helados.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    /* border: solid 2px purple; */
+}
+
+/* HERENCIA IMPLÍCITA */
+/* también se puede usar la medida vw y vh para el hijo que es hero */
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://image.freepik.com/foto-gratis/batido-leche-paja-espacio-copia_23-2148601319.jpg );
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    margin-top: 50vh;
+}
+
+h1{
+    text-shadow: 2px 2px 2px #32ff7e;
+    font-family: 'Lobster', cursive;
+}
+
+.sombra{
+    text-shadow: 2px 2px 2px #25CCF7;
+}
+.sombra2{
+    text-shadow: 2px 2px 2px #32ff7e;
+}
+.sombra3{
+    text-shadow: 2px 2px 2px #FDA7DF;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta{
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 2px;
+}
+
+.tapa{
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+
+
+.topin{
+  height: 40vh;
+  cursor: pointer;
+  opacity: .6;
+  transition: all .8s;
+}
+
+.topin:hover{
+  opacity: 1;
+  transition: all .6s;
+  transform: scale(1.2); 
+}
+
+.img-container{
+  overflow: hidden;
+}
+
+footer{
+    background-image: url(https://image.freepik.com/foto-gratis/vista-superior-helado-mesa_23-2148569443.jpg);
+    background-size: cover;
+}
+
+
