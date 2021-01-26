@@ -1,0 +1,142 @@
+.bg-1 { background: #c56cf0; }
+.bg-2 { background: #7efff5; }
+.bg-3 { background: #ff9ff3; }
+.bg-4 { background: #ffdd59; }
+.bg-5 { background: #32ff7e; }
+.bg-6 { background: #ff9f43; }
+
+
+.color-1 { color: #B33771; }
+.color-2 { color: #22a6b3; }
+.color-3 { color: #FC427B; }
+.color-4 { color: #3c40c6; }
+.color-5 { color: #ff9ff3; }
+.color-6 { color: #f5f6fa; }
+.color-7 { color: #c56cf0; }
+.color-8 { color: #7efff5; }
+.color-9 { color: #32ff7e; }
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(https://image.freepik.com/foto-gratis/cielo-estrellado_1048-11828.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 80vh;
+    /* border: solid 2px purple; */
+}
+
+/* HERENCIA IMPLÍCITA */
+/* también se puede usar la medida vw y vh para el hijo que es hero */
+.hero{
+    width: 100%;
+    height: 80%;
+    /* background-image: url(https://image.freepik.com/vector-gratis/icono-fondo-negro-galaxia-espiral_1284-14640.jpg); */
+    background-image: url(https://image.freepik.com/vector-gratis/nave-espacial-estacion-interestelar-planeta-alienigena_33099-1881.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 85% 84%, 75% 100%, 29% 75%, 0 92%);
+}
+
+/* FUENTES DE GOOGLE */
+.letra1{
+    font-family: 'Bungee Shade', cursive;
+}
+
+.letra2{
+    font-family: 'Faster One', cursive;
+}
+
+.letra3{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.letra4{
+    font-family: 'VT323', monospace;
+    font-size: 45px;
+}
+.letra5{
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+.letra6{
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+
+/* SOMBRAS */
+.sombra1{
+    text-shadow: 2px 2px 2px #32ff7e;
+}
+.sombra2{
+    text-shadow: 2px 2px 2px #7efff5;
+}
+.sombra3{
+    text-shadow: 2px 2px 2px #ffdd59;
+}
+.sombra4{
+    text-shadow: 3px 3px 3px #FC427B;
+}
+.sombra5{
+    text-shadow: 2px 2px 2px #B33771;
+}
+.sombra6{
+    text-shadow: 2px 2px 2px #f5f6fa;
+}
+
+
+.card{
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta{
+    width: 500px;
+    height: 500px;
+}
+
+.circulo{
+    clip-path: circle(50% at 50% 50%);
+}
+.fondo{
+    background-color: transparent !important;
+    border: none;
+}
+
+footer{
+    height: 30vh;
+    width: 100vw;
+}
+
+.fondo-footer{
+    background-image: url(https://image.freepik.com/vector-gratis/cabina-nave-espacial-espacio-interior-vista-planetas_33099-2159.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(19% 39%, 70% 10%, 100% 30%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0% 30%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+  
+ 
